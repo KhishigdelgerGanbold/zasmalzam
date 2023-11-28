@@ -29,13 +29,6 @@ body {
 	margin-top: 25px;
 }
 
-.carousel-caption p {
-	width: 60%;
-	margin: auto;
-	font-size: 18px;
-	line-height: 1.9;
-}
-
 .carousel-inner:before {
 	content: '';
 	position: absolute;
@@ -143,17 +136,6 @@ body {
 
 	.carousel-caption h5 {
 		font-size: 17px;
-	}
-
-	.carousel-caption a {
-		padding: 10px 15px;
-		font-size: 15px;
-	}
-
-	.carousel-caption p {
-		width: 100%;
-		line-height: 1.6;
-		font-size: 12px;
 	}
 
 	.about-text {
