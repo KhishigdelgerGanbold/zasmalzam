@@ -1,7 +1,7 @@
-var loader = document.getElementById("preloader");
-window.addEventListener("load", function(){
-    loader.style.display = "none";
-})
+// var loader = document.getElementById("preloader");
+// window.addEventListener("load", function(){
+//     loader.style.display = "none";
+// })
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
