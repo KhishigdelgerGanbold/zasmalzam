@@ -128,9 +128,14 @@ body {
 		height: 50vh;
 	}
 
+	.adv-img {
+		width: 30vw;
+		height: 50vh;
+	}
+
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 850px) {
 	.navbar-nav {
 		text-align: center;
 	}
@@ -166,13 +171,13 @@ body {
 	}
 
 	#googlemap-frame {
-		width: 70vw !important;
+		width: 80vw !important;
 		height: 50vh !important;
 	}
 
 	.adv-img {
-		width: 100px;
-		height: 100px;
+		width: 80vw;
+		height: 50vh;
 	}
 
 }
