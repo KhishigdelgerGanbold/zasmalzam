@@ -4,6 +4,10 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
+body,html {
+    height:100%;
+}
+
 body {
 	background: #f1fbff;
 }
@@ -133,6 +137,11 @@ body {
 		height: 50vh;
 	}
 
+	.footer {
+		height:50px;
+		margin-top:-50px;
+	}
+
 }
 
 @media only screen and (max-width: 850px) {
@@ -180,7 +189,18 @@ body {
 		height: 50vh;
 	}
 
+	.footer {
+		height:65px;
+		margin-top:-65px;
+	}
+
 }
+
+.main-wrapper {
+    min-height:100%;
+}
+
+
 
 .nav-link:hover {
 	color: #44b4da !important;
