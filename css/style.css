@@ -123,11 +123,17 @@ body {
 		width: 100%;
 	}
 
+	#googlemap-frame {
+		width: 70vw;
+		height: 50vh;
+	}
+
 }
 
 @media only screen and (max-width: 767px) {
 	.navbar-nav {
 		text-align: center;
+		
 	}
 
 	.carousel-caption {
@@ -154,6 +160,11 @@ body {
 	#iconArrow {
 		transform: rotate(90deg);
 		margin-top: 0vh !important;
+	}
+
+	#googlemap-frame {
+		width: 50vw !important;
+		height: 40vh;
 	}
 
 }
@@ -191,6 +202,8 @@ body {
 .adv-text {
 	font-size: 20px;
 }
+
+
 
 .hidden {
 	opacity: 0;
