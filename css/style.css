@@ -110,7 +110,7 @@ body {
 	font-size: 20px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 850px) {
 	.carousel-caption {
 		bottom: 370px;
 	}
@@ -141,20 +141,20 @@ body {
 	}
 
 	.carousel-inner {
-		height: 50vh !important;
+		height: 60vh !important;
 	}
 
 	.carousel-caption {
-		bottom: 125px;
+		bottom: 60vh;
 	}
 
 	.carousel-caption h5 {
 		font-size: 17px;
 	}
-
+/* 
 	.about-text {
 		padding-top: 50px;
-	}
+	} */
 
 	.card {
 		margin-bottom: 30px;
