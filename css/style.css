@@ -307,11 +307,6 @@ body {
 	margin-top: 20vh;
 }
 
-#cert1, #cert2 {
-	width: 500px;
-	height: 500px;
-}
-
 .info-media {
 	text-align: center;
 }
@@ -319,3 +314,12 @@ body {
 .custom-media {
 	padding: 10px 10px 10px 10px;
 }
+
+/* #preloader {
+	background: white url(../img/spinner.gif) no-repeat center center;
+	background-size: 8%;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+} */
