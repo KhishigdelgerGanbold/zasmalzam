@@ -133,7 +133,7 @@ body {
 @media only screen and (max-width: 767px) {
 	.navbar-nav {
 		text-align: center;
-		
+		height: 60vh !important;
 	}
 
 	.carousel-caption {
@@ -163,7 +163,12 @@ body {
 	}
 
 	#googlemap-frame {
-		width: 50vw !important;
+		width: 70vw !important;
+		height: 50vh !important;
+	}
+
+	.adv-img {
+		width: 90vw;
 		height: 40vh;
 	}
 
