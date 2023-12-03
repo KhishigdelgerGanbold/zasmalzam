@@ -133,7 +133,10 @@ body {
 @media only screen and (max-width: 767px) {
 	.navbar-nav {
 		text-align: center;
-		height: 60vh !important;
+	}
+
+	.carousel-inner {
+		height: 50vh !important;
 	}
 
 	.carousel-caption {
@@ -168,7 +171,7 @@ body {
 	}
 
 	.adv-img {
-		width: 90vw;
+		width: 50vw;
 		height: 40vh;
 	}
 
