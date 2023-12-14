@@ -3,6 +3,7 @@
 //     loader.style.display = "none";
 // })
 
+
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
