@@ -115,8 +115,9 @@ body {
 }
 
 @media only screen and (min-width: 850px) {
+
 	.carousel-caption {
-		bottom: 370px;
+		bottom: 45vh !important;
 	}
 
 	.card {
@@ -128,7 +129,7 @@ body {
 	}
 
 	#googlemap-frame {
-		width: 70vw;
+		width: 65vw;
 		height: 50vh;
 	}
 
@@ -180,7 +181,7 @@ body {
 	}
 
 	#googlemap-frame {
-		width: 80vw !important;
+		width: 65vw !important;
 		height: 50vh !important;
 	}
 
